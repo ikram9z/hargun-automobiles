@@ -8,9 +8,14 @@ const Hero = () => {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 lg:gap-12 items-center">
           {/* Left Content */}
           <div>
-            <span className="inline-block bg-red-100 text-red-700 text-xs font-bold uppercase tracking-wider px-3 py-1 rounded-full mb-4">
+            <span className="inline-block bg-red-100 text-red-700 text-xs font-bold uppercase tracking-wider px-3 py-1 rounded-full mb-3">
               Two-Wheeler Workshop & Spare Parts
             </span>
+
+            {/* Director Name positioned right here as requested */}
+            <p className="text-md font-bold text-zinc-800 mb-4">
+              Director: <span className="text-red-600">Gurdeep Singh</span>
+            </p>
 
             <h1 className="text-3xl sm:text-4xl lg:text-5xl font-extrabold text-zinc-900 tracking-tight leading-tight">
               Expert Scooty Repairs &{" "}
@@ -22,10 +27,6 @@ const Hero = () => {
               reliable. From complete scooty servicing, engine tuning, and
               clutch work to 100% genuine Honda spare parts, get honest pricing
               and quick service under one roof.
-            </p>
-
-            <p className="mt-3 text-md font-semibold text-zinc-800">
-              Director: <span className="text-red-600">Gurdeep Singh</span>
             </p>
 
             {/* Action Buttons */}
