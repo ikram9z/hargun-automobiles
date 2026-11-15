@@ -24,7 +24,7 @@ const Hero = () => {
               and quick service under one roof.
             </p>
 
-            <p className="mt-3 text-sm font-semibold text-zinc-800">
+            <p className="mt-3 text-md font-semibold text-zinc-800">
               Director: <span className="text-red-600">Gurdeep Singh</span>
             </p>
 
