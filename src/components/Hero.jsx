@@ -24,6 +24,10 @@ const Hero = () => {
               and quick service under one roof.
             </p>
 
+            <p className="mt-3 text-sm font-semibold text-zinc-800">
+              Director: <span className="text-red-600">Gurdeep Singh</span>
+            </p>
+
             {/* Action Buttons */}
             <div className="mt-8 flex flex-col sm:flex-row gap-3">
               <Link

@@ -72,20 +72,22 @@ const Footer = () => {
                 <MapPin className="w-4 h-4 text-red-500 shrink-0 mt-0.5" />
                 <span>Karan Nagar, Shaheed Gunj, Srinagar</span>
               </li>
-              <li className="flex items-center gap-2.5">
-                <Phone className="w-4 h-4 text-red-500 shrink-0" />
-                <a
-                  href="tel:+919596419724"
-                  className="hover:text-white transition"
-                >
-                  +91 9596419724
-                </a>
-                <a
-                  href="tel:+917889303235"
-                  className="hover:text-white transition"
-                >
-                  +91 7889303235
-                </a>
+              <li className="flex items-start gap-2.5">
+                <Phone className="w-4 h-4 text-red-500 shrink-0 mt-0.5" />
+                <div className="flex flex-col space-y-1">
+                  <a
+                    href="tel:+919596419724"
+                    className="hover:text-white transition"
+                  >
+                    +91 9596419724
+                  </a>
+                  <a
+                    href="tel:+917889303235"
+                    className="hover:text-white transition"
+                  >
+                    +91 7889303235
+                  </a>
+                </div>
               </li>
               <li className="flex items-center gap-2.5">
                 <Clock className="w-4 h-4 text-red-500 shrink-0" />
