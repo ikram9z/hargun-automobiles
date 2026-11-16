@@ -18,7 +18,7 @@ const Footer = () => {
                   HARGUN
                 </span>
                 <span className="block text-[11px] font-semibold tracking-widest text-red-500 uppercase">
-                  Automobiles
+                  Automotives
                 </span>
               </div>
             </Link>

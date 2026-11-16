@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import heroImg from "../assets/hero.jpeg";
+import heroImg from "../assets/hero3.png";
 const Hero = () => {
   return (
     <section className="bg-zinc-50 border-b border-gray-200">
@@ -23,7 +23,7 @@ const Hero = () => {
             </h1>
 
             <p className="mt-4 text-base sm:text-lg text-zinc-600 leading-relaxed">
-              At Hargun Automobiles, we keep your daily ride smooth and
+              At Hargun Automotives, we keep your daily ride smooth and
               reliable. From complete scooty servicing, engine tuning, and
               clutch work to 100% genuine Honda spare parts, get honest pricing
               and quick service under one roof.
