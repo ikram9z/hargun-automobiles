@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-
+import heroImg from "../assets/hero.jpeg";
 const Hero = () => {
   return (
     <section className="bg-zinc-50 border-b border-gray-200">
@@ -78,7 +78,7 @@ const Hero = () => {
           <div className="relative">
             <div className="rounded-xl overflow-hidden shadow-lg border border-gray-200 bg-zinc-200">
               <img
-                src="https://images.unsplash.com/photo-1568772585407-9361f9bf3a87?auto=format&fit=crop&w=1000&q=80"
+                src={heroImg}
                 alt="Hargun Automobiles Scooty Repair and Honda Parts Shop"
                 className="w-full h-[320px] sm:h-[400px] object-cover"
               />
